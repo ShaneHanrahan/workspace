@@ -508,3 +508,8 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2016-06-03 10:07:01,122 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanehanrahan/Documents/workspace/Restaurant/src/main/resources
 2016-06-03 10:07:01,124 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-06-03 10:07:01,124 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanehanrahan/Documents/workspace/Restaurant/src/test/resources
+2016-06-03 15:44:54,964 [Worker-49] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.restaurant:Restaurant:0.0.1-SNAPSHOT @ /Users/shanehanrahan/Documents/workspace/Restaurant/pom.xml.
+2016-06-03 15:44:55,289 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-03 15:44:55,289 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanehanrahan/Documents/workspace/Restaurant/src/main/resources
+2016-06-03 15:44:55,292 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-06-03 15:44:55,292 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/shanehanrahan/Documents/workspace/Restaurant/src/test/resources
