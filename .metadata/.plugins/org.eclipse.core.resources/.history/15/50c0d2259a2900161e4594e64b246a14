@@ -22,10 +22,5 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-<<<<<<< HEAD
   <!-- Comment for gits -->
-  <!-- Hickey waz ere -->
-=======
-  <!-- Comment for gits1 -->
->>>>>>> refs/remotes/origin/First-Branch
 </project>
