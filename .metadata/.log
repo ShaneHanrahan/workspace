@@ -1,0 +1,122 @@
+!SESSION 2016-05-13 14:04:30.009 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/shanehanrahan/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/shanehanrahan/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-13 14:05:16.616
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2016-05-13 15:56:57.312
+!MESSAGE Unable to process element: view in perspective extension: null
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-05-13 15:57:50.464
+!MESSAGE cacheFile=file:/Users/shanehanrahan/Downloads/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-05-13 15:57:50.468
+!MESSAGE cacheFile=file:/Users/shanehanrahan/Downloads/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-05-13 15:58:02.451
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-05-13 15:58:02.452
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-05-13 15:58:02.454
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-05-13 15:59:05.670
+!MESSAGE cacheFile=file:/Users/shanehanrahan/Downloads/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.jst.server.core 4 0 2016-05-13 16:05:07.594
+!MESSAGE Could not launch in profiling mode because no profilers are configured.
+!SESSION 2016-05-20 09:29:11.667 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/shanehanrahan/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/shanehanrahan/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-20 09:29:31.466
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2016-06-03 09:42:09.600 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/shanehanrahan/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/shanehanrahan/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-06-03 09:42:57.996
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-06-03 09:53:12.960
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model for test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT
+[FATAL] Non-resolvable parent POM for test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT: Could not find artifact test-parent-group-id:test-parent-group-id:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 3, column 11
+ for project test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT at /Users/shanehanrahan/Documents/workspace/test-artifact-ID/pom.xml
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model for test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT
+[FATAL] Non-resolvable parent POM for test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT: Could not find artifact test-parent-group-id:test-parent-group-id:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 3, column 11
+ for project test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT at /Users/shanehanrahan/Documents/workspace/test-artifact-ID/pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:815)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:956)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:191)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:729)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1050)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model for test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT
+[FATAL] Non-resolvable parent POM for test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT: Could not find artifact test-parent-group-id:test-parent-group-id:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 3, column 11
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:1007)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:796)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:325)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161)
+	... 15 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-06-03 09:57:15.691
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model for test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT
+[FATAL] Non-resolvable parent POM for test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT: Could not find artifact test-parent-group-id:test-parent-group-id:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 3, column 11
+ for project test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT at /Users/shanehanrahan/Documents/workspace/test-artifact-ID/pom.xml
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model for test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT
+[FATAL] Non-resolvable parent POM for test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT: Could not find artifact test-parent-group-id:test-parent-group-id:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 3, column 11
+ for project test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT at /Users/shanehanrahan/Documents/workspace/test-artifact-ID/pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:815)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:956)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:191)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:729)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1050)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model for test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT
+[FATAL] Non-resolvable parent POM for test-group-ID:test-artifact-ID:0.0.1-SNAPSHOT: Could not find artifact test-parent-group-id:test-parent-group-id:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 3, column 11
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:1007)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:796)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:325)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161)
+	... 15 more
